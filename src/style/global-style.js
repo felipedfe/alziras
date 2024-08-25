@@ -4,6 +4,7 @@ export default createGlobalStyle`
   :root {
     --orange-100: #f89c1c;
     --purple-100: #86376e;
+    --purple-200: #dac3d3;
   }
 
   * {
