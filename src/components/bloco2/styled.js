@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.section`
   position: relative;
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 80% 15%;
+  gap: 10px;
   width: 100%;
   padding: 50px 5% 50px 5%;
   overflow: hidden;
@@ -25,16 +26,30 @@ export const ParagraphWrapper = styled.div`
   padding-left:12px;
 `
 
-export const Estatisticas = styled.img`
+export const EstatisticasDesktop = styled.img`
   position: relative;
   width: 100%;
   z-index: 2;
+
+  @media all and (max-width: 768px) {
+    display: none;
+  }
 `
 
-export const MulheresFunil = styled.img`
+export const EstatisticasMobile = styled.img`
+  position: relative;
+  width: 100%;
+  z-index: 2;
+
+  @media all and (min-width: 769px) {
+    display: none;
+  }
+`
+
+export const Maos = styled.img`
   position: absolute;
-  top: -8%;
-  left: 0;
+  top: 10%;
+  left: -5%;
   z-index: 1;
   /* width: 125%; */
 

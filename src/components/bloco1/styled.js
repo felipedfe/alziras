@@ -67,7 +67,7 @@ export const Rectangle = styled.div`
   width: 100%;
   background-color: #fff;
 
-  @media all and (max-width: 1200px) {
+  @media all and (max-width: 1024px) {
     grid-template-columns: 100%;
   }
 `
@@ -79,11 +79,15 @@ export const SubTitle = styled.h3`
 
 export const Image = styled.img`
   position: absolute;
-  left: -10%;
-  bottom: -10%;
-  width: 125%;
+  left: 0;
+  bottom: 0;
+  width: 90%;
 
   @media all and (max-width: 1200px) {
+    width: 100%;
+  }
+
+  @media all and (max-width: 1024px) {
     display: none;
   }
 `

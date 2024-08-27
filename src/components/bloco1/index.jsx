@@ -15,6 +15,7 @@ import {
 import { Title } from '../../style/reusable-components';
 
 import maosUrna from '../../assets/bloco1/maos-urna-2.png';
+import mulheresUrna from '../../assets/bloco1/mulheres-urna.png';
 import logo from '../../assets/header/logo.png';
 
 const Bloco1 = () => {
@@ -71,7 +72,7 @@ const Bloco1 = () => {
         </Box>
         <Box position='relative' width='100%'>
           <Image
-            src={maosUrna}
+            src={mulheresUrna}
             alt='mão saindo de dentro de uma urna eletrônica'
           />
         </Box>

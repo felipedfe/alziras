@@ -20,7 +20,7 @@ export const BgContainer = styled.section`
   }
 
   @media all and (max-width: 768px) {
-    padding: 30px 0px 30px 0px;
+    padding: 10px 0px 10px 0px;
   }
 `
 
@@ -48,26 +48,33 @@ export const TitleWrapper = styled.div`
 
 export const Rectangle = styled.div`
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 70% 30%;
   background-color: #fff;
-  padding: 40px 0 40px 40px;
+  padding: 40px 0 40px 10px;
   /* overflow: hidden; */
 
-  /* border: solid 2px blue; */
+  @media all and (max-width: 900px) {
+    grid-template-columns: 100%;
+    padding: 20px 10px 20px 10px;
+  }
 `
 
 export const Estatisticas = styled.img`
   width: 100%;
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
   z-index: 3;
 `
 
-export const Papeis = styled.img`
+export const Funil = styled.img`
   position: absolute;
-  bottom: -10%;
-  right: 0;
-  width: 100%;
+  top: -10%;
+  left: 0;
+  width: 130%;
   z-index: 2;
+
+  @media all and (max-width: 900px) {
+    display: none;
+  }
 `
 
 export const Grafismo = styled.img`
@@ -75,4 +82,8 @@ export const Grafismo = styled.img`
   bottom: 0;
   right: 0;
   z-index: 1;
+
+  @media all and (max-width: 768px) {
+    display: none;
+  }
 `
