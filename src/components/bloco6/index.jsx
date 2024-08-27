@@ -4,7 +4,7 @@ import {
   Container,
   SubTitle,
   ThanksWrapper,
-  Image,
+  ImageDesktop,
   ImageMobile,
   ThanksContainer,
   ImageDesktopContainer,
@@ -71,7 +71,7 @@ const Bloco6 = () => {
         </Box>
 
         <ImageDesktopContainer>
-          <Image
+          <ImageDesktop
             src={maos}
             alt='mãos com diversos tons de pele'
           />

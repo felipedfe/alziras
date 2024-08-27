@@ -36,6 +36,10 @@ export default createGlobalStyle`
     font-size: 18px;
   }
 
+  button {
+    font-family: veneer, sans-serif;
+  }
+
   p {
     font-family: owners-text, sans-serif;
     font-size: 18px;

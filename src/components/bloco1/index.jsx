@@ -5,16 +5,30 @@ import {
   Rectangle,
   Image,
   // Title,
-  SubTitle
+  SubTitle,
+  HeaderWrapper,
+  Logo,
+  Navigation,
+  MenuButton,
 } from './styled';
 
 import { Title } from '../../style/reusable-components';
 
 import maosUrna from '../../assets/bloco1/maos-urna-2.png';
+import logo from '../../assets/header/logo.png';
 
 const Bloco1 = () => {
   return (
     <Container>
+      <HeaderWrapper>
+        <Logo src={logo} alt='logo Alziras' />
+        <Navigation>
+          <MenuButton>/MENU</MenuButton>
+          <MenuButton>/O MONITOR</MenuButton>
+          <MenuButton>/RELATÓRIO COMPLETO </MenuButton>
+          <MenuButton style={{ color: 'var(--orange-100)' }}>/DENUNCIE</MenuButton>
+        </Navigation>
+      </HeaderWrapper>
       <Rectangle>
         <Box width='100%' height='100%' sx={{ padding: '20px' }}>
           <Title>

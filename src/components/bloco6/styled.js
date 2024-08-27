@@ -11,6 +11,10 @@ export const Container = styled.section`
     padding: 50px 0 50px 0;
     grid-template-columns: 100%;
   }
+
+  @media all and (max-width: 550px) {
+    padding: 50px 0 0 0;
+  }
 `
 
 export const SubTitle = styled.h4`
@@ -48,14 +52,15 @@ export const ImageDesktopContainer = styled.div`
 
 export const ImageMobileContainer = styled.div`
   width: 100%;
-  height: 200px;
+  height: 170px;
+  /* background-color: red; */
 
   @media all and (min-width: 1025px) {
     display: none;
   }
 `
 
-export const Image = styled.img`
+export const ImageDesktop = styled.img`
   position: absolute;
   right: -15%;
   bottom: -12%;
@@ -64,4 +69,9 @@ export const Image = styled.img`
 
 export const ImageMobile = styled.img`
   width: 100%;
+  object-fit: cover;
+
+  @media all and (max-width: 450px) {
+    width: 120%;
+  }
 `
