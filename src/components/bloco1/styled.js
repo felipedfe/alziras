@@ -26,7 +26,7 @@ export const Navigation = styled.nav`
   padding: 10px;
   flex-wrap: wrap;
 
-  @media all and (max-width: 400px) {
+  @media all and (max-width: 410px) {
     /* display: grid;
     grid-template-columns: 50% 50%; */
     gap: 10px;
@@ -35,12 +35,16 @@ export const Navigation = styled.nav`
 `
 
 export const MenuButton = styled.button`
-  /* font-size: 20px; */
+  font-size: 18px;
   color: #fff;
   border: none;
   background-color: transparent;
   letter-spacing: 1.5px;
   cursor: pointer;
+
+  @media all and (max-width: 768px) {
+    font-size: 13px;
+  }
 `
 
 //

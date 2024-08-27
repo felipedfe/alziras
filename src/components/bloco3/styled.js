@@ -51,7 +51,7 @@ export const Rectangle = styled.div`
   grid-template-columns: 70% 30%;
   background-color: #fff;
   padding: 40px 0 40px 10px;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 
   @media all and (max-width: 900px) {
     grid-template-columns: 100%;
