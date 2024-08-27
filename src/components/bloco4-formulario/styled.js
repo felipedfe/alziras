@@ -62,5 +62,5 @@ export const DownloadButton = styled.button`
   font-size: 18px;
   cursor: pointer;
   align-self: center;
-  margin-top: 16px;
+  margin-top: 22px;
 `

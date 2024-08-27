@@ -13,6 +13,10 @@ export default createGlobalStyle`
     margin: 0;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: veneer, sans-serif;
     color: var(--purple-100);

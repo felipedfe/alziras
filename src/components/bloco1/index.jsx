@@ -18,15 +18,23 @@ import maosUrna from '../../assets/bloco1/maos-urna-2.png';
 import logo from '../../assets/header/logo.png';
 
 const Bloco1 = () => {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    console.log('section:',section)
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <Container>
       <HeaderWrapper>
         <Logo src={logo} alt='logo Alziras' />
         <Navigation>
           <MenuButton>/MENU</MenuButton>
-          <MenuButton>/O MONITOR</MenuButton>
-          <MenuButton>/RELATÓRIO COMPLETO </MenuButton>
-          <MenuButton style={{ color: 'var(--orange-100)' }}>/DENUNCIE</MenuButton>
+          <MenuButton onClick={() => scrollToSection('monitor')}>/O MONITOR</MenuButton>
+          <MenuButton onClick={() => scrollToSection('relatorio')}>/RELATÓRIO COMPLETO </MenuButton>
+          <MenuButton onClick={() => scrollToSection('denuncie')} style={{ color: 'var(--orange-100)' }}>/DENUNCIE</MenuButton>
         </Navigation>
       </HeaderWrapper>
       <Rectangle>
@@ -52,12 +60,12 @@ const Bloco1 = () => {
               política mais representativa, plural e inclusiva.
             </p>
 
-            <p>
+            {/* <p>
               Esperamos contribuir para a consolidação de sistemas e redes de proteção, prevenção e enfrentamento da violência
               política de gênero e raça, de forma que todas as mulheres brasileiras possam participar da política em
               condições de segurança e igualdade, livres de assédio, ameaças e discriminação, inspirando meninas e jovens
               das gerações atuais e futuras para que possam seguir pelo mesmo caminho.
-            </p>
+            </p> */}
           </Box>
 
         </Box>

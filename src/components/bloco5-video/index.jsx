@@ -3,7 +3,9 @@ import { Box } from '@mui/material';
 import {
   Container,
   TitleB5,
-  SubTitle
+  SubTitle,
+  Video,
+  VideoWrapper
 } from './styled';
 
 import { Title } from '../../style/reusable-components';
@@ -12,7 +14,7 @@ import VideoContainer from '../video-container';
 
 const Bloco5Video = () => {
   return (
-    <Container>
+    <Container id="denuncie">
       <Box width='100%' height='100%' sx={{ padding: '20px' }}>
         <Title>
           COMO DENUNCIAR?
@@ -39,11 +41,22 @@ const Bloco5Video = () => {
             <span style={{ color: 'var(--orange-100)' }}> (</span>61<span style={{ color: 'var(--orange-100)' }}>)</span> 3771-1071.</span>
         </TitleB5>
       </Box>
-      <Box width='100%' display='flex' alignItems='center'>
+      {/* <Box width='100%' display='flex' alignItems='center'>
         <VideoContainer
           url='https://www.youtube.com/embed/X110K8HEWhA'
           controls='1'
         />
+      </Box> */}
+      <Box width='100%' display='flex' alignItems='center'>
+        <VideoWrapper>
+          <Video
+            title="video-container"
+            src={`https://www.youtube.com/embed/R0qAXHbCUUA?si=6ZDPBZy7SIs6_vLz`}
+            frameBorder="0"
+            allow="autoplay"
+            loading="lazy"
+          />
+        </VideoWrapper>
       </Box>
     </Container>
   )

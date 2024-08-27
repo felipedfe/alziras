@@ -39,3 +39,19 @@ export const SubTitle = styled.h3`
   color: var(--orange-100); 
   transform: rotate(-0.5deg);
 `
+
+export const VideoWrapper = styled.div`
+  position: relative;
+  padding: 56.25% 0 0 0;
+  width: 100%;
+  aspect-ratio: 16/9;
+`
+
+export const Video = styled.iframe`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+`
