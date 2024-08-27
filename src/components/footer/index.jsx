@@ -4,8 +4,16 @@ import { Box } from '@mui/material';
 import logoAlziras from '../../assets/footer/logo-alziras.png';
 import logoAfd from '../../assets/footer/logo-afd.png';
 import logoOnmp from '../../assets/footer/logo-onmp.png';
+import grafismo from '../../assets/footer/grafismo-hi.png';
 
-import { Container, Wrapper, Image, ImageWrapper } from './styled';
+import {
+  Container,
+  Wrapper,
+  Image,
+  ImageWrapper,
+  Graph,
+  GraphWrapper,
+} from './styled';
 
 const Footer = () => {
   return (
@@ -30,6 +38,10 @@ const Footer = () => {
           <Image src={logoOnmp} alt='Observatório Nacional da Mulher na Política' />
         </ImageWrapper>
       </Wrapper>
+
+      <GraphWrapper>
+        <Graph src={grafismo} />
+      </GraphWrapper>
     </Container >
   )
 };

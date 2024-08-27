@@ -16,7 +16,7 @@ import estatisticas from '../../assets/bloco3/estatisticas.png';
 import ilustraPapeis from '../../assets/bloco3/papeis.png';
 import ilustraPapeis2 from '../../assets/bloco3/papeis-2.png';
 import grafismo from '../../assets/bloco3/grafismo-b3.png';
-import graficoMobile from '../../assets/bloco3/grafico-mobile.png';
+import graficoMobile from '../../assets/bloco3/grafico-hi-2.png';
 import graficoDesktop from '../../assets/bloco3/grafico-desktop.png';
 import funil from '../../assets/bloco3/funil.png';
 import funilHi from '../../assets/bloco3/funil-hi.png';

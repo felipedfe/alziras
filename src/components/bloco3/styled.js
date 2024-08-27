@@ -51,6 +51,7 @@ export const Rectangle = styled.div`
   grid-template-columns: 70% 30%;
   background-color: #fff;
   padding: 40px 0 40px 10px;
+  min-width: 0;
   overflow-x: hidden;
 
   @media all and (max-width: 900px) {
@@ -70,7 +71,7 @@ export const Funil = styled.img`
   top: -10%;
   left: 0;
   width: 130%;
-  z-index: 2;
+  z-index: 4;
 
   @media all and (max-width: 900px) {
     display: none;
