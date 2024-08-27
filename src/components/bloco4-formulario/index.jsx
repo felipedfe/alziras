@@ -1392,7 +1392,7 @@ const Bloco4Formulario = () => {
   const handleDownload = () => {
     if (submitted) {
       const link = document.createElement('a');
-      link.href = '/monitor-final-revisado.pdf'; // Aqui vai o caminho do seu PDF
+      link.href = '/violenciapolitica/monitor-final-revisado.pdf';
       link.setAttribute('download', 'relatorio-alziras.pdf');
       document.body.appendChild(link);
       link.click();
