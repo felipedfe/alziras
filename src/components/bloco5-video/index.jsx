@@ -26,9 +26,9 @@ const Bloco5Video = () => {
             Conhece alguém que está passando por isso?
           </p>
 
-          <SubTitle>
+          {/* <SubTitle>
             VIOLÊNCIA POLÍTICA DE GÊNERO E RAÇA É CRIME! DENUNCIE!
-          </SubTitle>
+          </SubTitle> */}
 
           <p>
             Qualquer pessoa pode fazer a denúncia. Assista o vídeo e saiba como!
@@ -47,7 +47,7 @@ const Bloco5Video = () => {
           controls='1'
         />
       </Box> */}
-      <Box width='100%' display='flex' alignItems='center'>
+      <Box width='100%' display='flex' flexDirection='column' justifyContent='center' gap='20px'>
         <VideoWrapper>
           <Video
             title="video-container"
@@ -57,6 +57,10 @@ const Bloco5Video = () => {
             loading="lazy"
           />
         </VideoWrapper>
+
+        <a href='/violenciapolitica/modelo-denuncia.docx' download='Modelo_de_denuncia_de_Violencia_Politica_de_Genero_e_ Raca.docx'>
+          Baixe aqui o Modelo para Denúncia de Violência Política de Gênero e Raça ao Ministério Público
+        </a>
       </Box>
     </Container>
   )

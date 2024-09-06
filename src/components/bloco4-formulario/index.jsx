@@ -8,6 +8,7 @@ import {
   TitleB4,
   DownloadButton,
   Form,
+  FormWrapper,
 } from './styled';
 
 const Bloco4Formulario = () => {
@@ -91,11 +92,12 @@ const Bloco4Formulario = () => {
           alt='relatórios - Monitor da Violência Política e de Gênero e Raça 2021/2023'
         />
       </ImageWrapper>
-      <Box sx={{ padding: '20px', borderRadius: '8px' }}>
-        <TitleB4>
+      {/* <Box sx={{ padding: '20px', borderRadius: '8px' }}> */}
+      <FormWrapper>
+        {/* <TitleB4>
           O RELATÓRIO DE PESQUISA DISCUTE AINDA COMO AS CASAS LEGISLATIVAS VÊM LIDANDO COM A
           VIOLÊNCIA POLÍTICA DE GÊNERO E RAÇA E APRESENTA RECOMENDAÇÕES.
-        </TitleB4>
+        </TitleB4> */}
         <TitleB4>QUER SABER MAIS?</TitleB4>
 
         <Form onSubmit={handleSubmit}>
@@ -258,7 +260,7 @@ const Bloco4Formulario = () => {
               </DownloadButton>
             </>
           ) : (
-            <Box display='flex' justifyContent='center' sx={{ padding: '5px'}}>
+            <Box display='flex' justifyContent='center' sx={{ padding: '5px' }}>
               {!isLoading && (
                 <DownloadButton onClick={handleDownload}>/DOWNLOAD</DownloadButton>
               )}
@@ -277,7 +279,8 @@ const Bloco4Formulario = () => {
             </Box>
           )}
         </Form>
-      </Box>
+      </FormWrapper>
+      {/* </Box> */}
     </Container>
   );
 };

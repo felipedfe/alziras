@@ -22,11 +22,16 @@ export const Container = styled.section`
 export const TitleB4 = styled(Title)`
   color: var(--orange-100);
    line-height: 1; 
-   text-align: right;
+   /* text-align: right; */
 
    @media all and (max-width: 1024px) {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 1.1; 
+    text-align: center;
+
+    @media all and (max-width: 768px) {
+      margin-bottom: 0;
+    }
   }
 `
 
@@ -43,6 +48,15 @@ export const Image = styled.img`
     width: 90%;
     transform: translateX(0);
   }
+`
+
+export const FormWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  /* gap: 30px; */
+
+  padding: 20px;
+  border-radius: 8px;
 `
 
 export const Form = styled.form`

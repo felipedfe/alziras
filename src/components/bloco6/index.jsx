@@ -55,10 +55,16 @@ const Bloco6 = () => {
               <Box>
                 <SubTitle>COLABORAÇÃO E AGRADECIMENTOS</SubTitle>
                 <p>
-                  Alessandra Simões Reis Abraão, Ana Claudia Sousa Oliveira, Amanda Pimentel, Ana Claudia Oliveira,
+                  {/* Alessandra Simões Reis Abraão, Ana Claudia Sousa Oliveira, Amanda Pimentel, Ana Claudia Oliveira,
                   Bianca Gonçalves e Silva, Carmela Zigoni, Cecilia Gonçalves Batista Lamounier, Cristiane Bernardes,
                   Iasmin Barros, Lucas Renan Silva, Marilia Bonfim, Marília Gomes do Nascimento, Marlise Mattos, Piedade Marques,
-                  Raquel Branquinho Pimenta Mamede Nascimento, Roberta Eugenio
+                  Raquel Branquinho Pimenta Mamede Nascimento, Roberta Eugenio */}
+                  Alda Marco Antonio, Alessandra Simões Reis Abraão, Amanda Pimentel, Ana Claudia Ellery Lustosa da Costa, 
+                  Ana Claudia Oliveira, Anne Karolyne Moura, Bianca Gonçalves e Silva, Carmela Zigoni, 
+                  Cecilia Gonçalves Batista Lamounier, Cristiane Bernardes, Dora Pires, Iasmin Barros, Juliet Matos, 
+                  Katia Lobo, Lucas Renan Silva, Luciana Loureiro, Mamede Nascimento, Marilia Bonfim, 
+                  Marília Gomes do Nascimento, Marlise Mattos, Piedade Marques, Raquel Branquinho Pimenta Mamede Nascimento e 
+                  Roberta Eugenio.
                 </p>
               </Box>
 

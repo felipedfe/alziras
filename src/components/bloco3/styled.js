@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import bgImage from '../../assets/bloco3/fundo-b3.webp';
+// import bgImage from '../../assets/bloco3/fundo-b3.webp';
 import bgImageMobile from '../../assets/bloco3/fundo-b3-mobile.webp';
+import bgImage from '../../assets/bloco1/fundo-b1.webp';
 
 export const Container = styled.section`
 
@@ -12,22 +13,34 @@ export const BgContainer = styled.section`
   background-position: top; /* Centraliza a imagem de fundo */
   background-repeat: no-repeat; /* Impede a repetição da imagem */
   width: 100%;
-  padding: 50px 5% 50px 5%;
+  padding: 60px 5% 10px 5%;
 
   @media all and (max-width: 1024px) {
-    padding: 30px 20px 30px 20px;
+    padding: 30px 20px 0px 20px;
     /* background-image: url(${bgImageMobile}); */
   }
 
   @media all and (max-width: 768px) {
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
+  }
+`
+
+export const BgContainerWrapper = styled.section`
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+
+  @media all and (max-width: 768px) {
+    padding: 0 20px;
   }
 `
 
 export const TitleWrapper = styled.div`
   &>* {
-    width: 50%;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+    width: 60%;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) */
+    background-color: #fff;
+    padding: 20px;
   }
 
   @media all and (max-width: 768px) {
@@ -39,7 +52,7 @@ export const TitleWrapper = styled.div`
     &>* {
     width: 100%;
     margin: 20px 0;
-    padding: 0 20px;
+    padding: 10px 20px;
     font-size: 30px;
     line-height: 1.2;
   }
@@ -50,27 +63,41 @@ export const Rectangle = styled.div`
   display: grid;
   grid-template-columns: 70% 30%;
   background-color: #fff;
-  padding: 40px 0 40px 10px;
+  padding: 15px 0 40px 10px;
   min-width: 0;
   overflow-x: hidden;
 
   @media all and (max-width: 900px) {
     grid-template-columns: 100%;
-    padding: 20px 10px 20px 10px;
+    padding: 10px 3px 20px 3px;
   }
 `
 
-export const Estatisticas = styled.img`
+export const EstatisticasDesk = styled.img`
   width: 100%;
   /* padding-right: 1rem; */
   z-index: 3;
+
+  @media all and (max-width: 768px) {
+    display: none;
+  }
+`
+
+export const EstatisticasMobile = styled.img`
+  width: 100%;
+  /* padding-right: 1rem; */
+  z-index: 3;
+
+  @media all and (min-width: 769px) {
+    display: none;
+  }
 `
 
 export const Funil = styled.img`
   position: absolute;
-  top: -10%;
+  bottom: -3%;
   left: 0;
-  width: 130%;
+  width: 120%;
   z-index: 4;
 
   @media all and (max-width: 900px) {

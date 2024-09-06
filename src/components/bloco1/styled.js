@@ -16,7 +16,7 @@ export const HeaderWrapper = styled.section`
 `
 
 export const Logo = styled.img`
-
+  
 `
 
 export const Navigation = styled.nav`

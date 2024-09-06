@@ -50,4 +50,9 @@ export default createGlobalStyle`
     color: var(--purple-100);
   }
 
+  a {
+    font-family: owners-text, sans-serif;
+    color: #86376e;
+  }
+
 `
