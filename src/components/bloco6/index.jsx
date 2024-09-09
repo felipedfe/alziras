@@ -29,6 +29,14 @@ const Bloco6 = () => {
             {/* esquerda */}
             <ThanksWrapper>
               <Box>
+                <SubTitle>DIREÇÃO DO INSTITUTO ALZIRAS</SubTitle>
+                <p>Cintia Melchiori</p>
+                <p>Marina Barros</p>
+                <p>Michelle Ferreti</p>
+                <p>Tauá Pires</p>
+              </Box>
+
+              <Box>
                 <SubTitle>COORDENAÇÃO DA PESQUISA</SubTitle>
                 <p>Tauá Pires e Michelle Ferreti</p>
               </Box>
@@ -37,10 +45,6 @@ const Bloco6 = () => {
                 <SubTitle>ANÁLISES E TEXTO FINAL</SubTitle>
                 <p>Mariane dos Santos Almeida Costa</p>
                 <p>Ermelinda de Fátima Ireno de Melo</p>
-              </Box>
-
-              <Box>
-                <SubTitle>REVISÃO</SubTitle>
                 <p>Michelle Ferreti</p>
               </Box>
 
@@ -59,11 +63,11 @@ const Bloco6 = () => {
                   Bianca Gonçalves e Silva, Carmela Zigoni, Cecilia Gonçalves Batista Lamounier, Cristiane Bernardes,
                   Iasmin Barros, Lucas Renan Silva, Marilia Bonfim, Marília Gomes do Nascimento, Marlise Mattos, Piedade Marques,
                   Raquel Branquinho Pimenta Mamede Nascimento, Roberta Eugenio */}
-                  Alda Marco Antonio, Alessandra Simões Reis Abraão, Amanda Pimentel, Ana Claudia Ellery Lustosa da Costa, 
-                  Ana Claudia Oliveira, Anne Karolyne Moura, Bianca Gonçalves e Silva, Carmela Zigoni, 
-                  Cecilia Gonçalves Batista Lamounier, Cristiane Bernardes, Dora Pires, Iasmin Barros, Juliet Matos, 
-                  Katia Lobo, Lucas Renan Silva, Luciana Loureiro, Mamede Nascimento, Marilia Bonfim, 
-                  Marília Gomes do Nascimento, Marlise Mattos, Piedade Marques, Raquel Branquinho Pimenta Mamede Nascimento e 
+                  Alda Marco Antonio, Alessandra Simões Reis Abraão, Amanda Pimentel, Ana Claudia Ellery Lustosa da Costa,
+                  Ana Claudia Oliveira, Anne Karolyne Moura, Bianca Gonçalves e Silva, Carmela Zigoni,
+                  Cecilia Gonçalves Batista Lamounier, Cristiane Bernardes, Dora Pires, Iasmin Barros, Juliet Matos,
+                  Katia Lobo, Lucas Renan Silva, Luciana Loureiro, Mamede Nascimento, Marilia Bonfim,
+                  Marília Gomes do Nascimento, Marlise Mattos, Piedade Marques, Raquel Branquinho Pimenta Mamede Nascimento e
                   Roberta Eugenio.
                 </p>
               </Box>
